@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+}
+
+.container .head {
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight: 500;
+    background: #f25;
+    padding: 5px 0;
+}
+.container .head span{
+    color: #fa0;
+}
+
+
+.container .body .square{
+    background: #f25;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+}
+.container .body .square:hover{
+    background: black;
+}
+
+@media(max-width: 390px){
+    .container .body .square {
+        height: 70px;
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 391px)and(max-width: 767px){
+    .container .body .square {
+        height: 90px;
+    }
+}
